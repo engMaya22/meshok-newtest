@@ -1,0 +1,33 @@
+{
+    "name": "meshoko/newtest",
+    "require": {
+        "guzzlehttp/psr7": "2.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meshoko\\Newtest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "engMaya22",
+            "email": "eng.maya.esmaeel1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+   
+    "extra": {
+        "laravel": {
+
+            "providers": [
+                "Meshoko\\Commands\\TestServiceProvider"
+            ]
+
+            
+
+        }
+
+
+    }
+}
